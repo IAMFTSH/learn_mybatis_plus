@@ -1,0 +1,19 @@
+mybatis-plus:
+  configuration:
+    log-impl: org.apache.ibatis.logging.stdout.StdOutImpl
+
+
+
+Creating a new SqlSession   ////创建一个连接
+SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@699afc] was not registered for synchronization because synchronization is not active
+JDBC Connection [HikariProxyConnection@25888000 wrapping com.mysql.cj.jdbc.ConnectionImpl@544c0a] will not be managed by Spring   //使用jdbc连接
+==>  Preparing: SELECT id,name,age,email FROM user         ////// sql语句
+==> Parameters:
+<==    Columns: id, name, age, email
+<==        Row: 1, Jone, 18, test1@baomidou.com
+<==        Row: 2, Jack, 20, test2@baomidou.com
+<==        Row: 3, Tom, 28, test3@baomidou.com
+<==        Row: 4, Sandy, 21, test4@baomidou.com
+<==        Row: 5, Billie, 24, test5@baomidou.com
+<==      Total: 5
+Closing non transactional SqlSession [org.apache.ibatis.session.defaults.DefaultSqlSession@699afc]

@@ -1,0 +1,7 @@
+Mapper接口中没有的方法，都是mybatisPlus自动生成的，具体使用方法请看Test
+
+Mapper接口中有的方法，是我自己写的，
+
+mybatisPlus没有自动生成多表查询功能，多表查询是我自己写的
+
+如果遇到关于mybatisPlus不懂的，可以直接点源码或者去mp.baomidou.com官网查看
